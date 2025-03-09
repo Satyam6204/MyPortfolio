@@ -4,7 +4,8 @@ import ImgTitle from "../Components/ImgTitle";
 function Home() {
     return (
         <>
-         <ImgTitle/>
+            <ImgTitle />
+
         </>
     )
 }

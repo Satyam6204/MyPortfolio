@@ -1,11 +1,12 @@
 import React from "react";
+import Footer from "../Components/Footer";
 
 function About() {
     return (
         <>
             <div className="h-150 flex justify-center items-center">
 
-                <div className="border-3 h-fit w-100 md:h-fit md:w-200 px-5 border-t-lime-400 flex justify-center  ">
+                <div className=" border-l h-fit w-100 md:h-fit md:w-200 px-5 border-l-lime-400 flex justify-center  ">
                     <p className="font-bold md:font-normal md:text-2xl xl:text-2xl text-emerald-800">
                         My name is Satyam Kumar, and I am a B.Tech graduate in Computer Science Engineering from Aravali Institute of Technical Studies, Udaipur. I also hold a Diploma in Computer Science Engineering from Jai Polytechnic, Ambala. Currently, I am undergoing training as a Full Stack Java Developer, with four months remaining in my program.
 
@@ -17,6 +18,8 @@ function About() {
                 </div>
 
             </div>
+
+            <Footer/>
         </>
     )
 }
